@@ -7,7 +7,7 @@ namespace Allowerd.Core
     {
         
         public static void Init() {
-            File.AppendAllText("./Allowerd_Data/Output.log", $"\nTEST");
+            File.AppendAllText("./Allowerd_Data/Output.log", "\nTEST");
         }
         
         private RustServers() {
