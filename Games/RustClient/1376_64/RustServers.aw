@@ -21,7 +21,7 @@ namespace Allowerd.Core
             new RustServers();
         }
         
-        privat RustServers() {
+        private RustServers() {
             Interface.AddPlugin(this);
             Interface.CallHoock("Interface.Log", "Inited - RustServers");
         }
