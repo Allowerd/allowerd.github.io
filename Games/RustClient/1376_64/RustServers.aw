@@ -17,7 +17,7 @@ namespace Allowerd.Core
         public override string Name => nameof(RustServers);
         public override int Version => 1;
         
-        public static void Init() {
+        public void Init() {
             Interface.AddPlugin(this);
             Interface.CallHoock("Interface.Log", "Inited - Interface.CallHoock("Disconnect", "Inited - RustServers");");
         }
