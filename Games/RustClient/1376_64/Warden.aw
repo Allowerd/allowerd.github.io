@@ -18,7 +18,7 @@ namespace Allowerd.Core
         
         public Warden() {
             Interface.AddPlugin(this);
-            Interface.CallHoock("Disconnect", "Inited - Warden");
+            Interface.CallHoock("Interface.Log", "Inited - Warden");
         }
     }
 }
