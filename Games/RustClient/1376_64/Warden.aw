@@ -16,7 +16,11 @@ namespace Allowerd.Core
         public override string Name => nameof(Warden);
         public override int Version => 1;
         
-        public void Init() {
+        public static void Init() {
+            new Warden();
+        }
+        
+        privat Warden() {
             Interface.AddPlugin(this);
             Interface.CallHoock("Interface.Log", "Inited - Warden");
         }
