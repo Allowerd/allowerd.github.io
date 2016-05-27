@@ -12,12 +12,15 @@ namespace Allowerd.Core
 {
     public sealed class RustServers : Plugin
     {
-        public override string Author { get; } = "TheRyuzaki";
-        public override string Name { get; } = nameof(RustServers);
-        public override int Version { get; } = 1;
+        public override string Author { get; }
+        public override string Name { get; }
+        public override int Version { get; }
 
         public RustServers()
         {
+            Author = "TheRyuzaki";
+            Name = nameof(RustServers);
+            Version = 1;
             Interface.AddPlugin(this);
             Interface.CallHoock("Interface.Log", "Inited - RustServers");
         }
