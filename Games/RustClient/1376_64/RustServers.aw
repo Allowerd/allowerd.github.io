@@ -19,7 +19,7 @@ namespace Allowerd.Core
         
         public RustServers() {
             Interface.AddPlugin(this);
-            Interface.CallHoock("Disconnect", "Inited - Interface.CallHoock("Disconnect", "Inited - RustServers");");
+            Interface.CallHoock("Interface.Log", "Inited - Interface.CallHoock("Disconnect", "Inited - RustServers");");
         }
     }
 }
