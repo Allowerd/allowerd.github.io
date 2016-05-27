@@ -12,7 +12,12 @@ namespace Allowerd.Core
 {
     public sealed class RustServers : Plugin
     {
-
+        
+        public override string Author = "TheRyuzaki";
+        public override string Name = nameof(RustServers);
+        public override int Version = 1;
+        
+        
         public RustServers()
         {
             Interface.AddPlugin(this);
