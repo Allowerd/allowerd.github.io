@@ -13,9 +13,9 @@ namespace Allowerd.Core
 {
     public sealed class RustServers : Plugin
     {
-        public override string Author => "TheRyuzaki";
-        public override string Name => nameof(RustServers);
-        public override int Version => 1;
+        public override string Author {get;} = "TheRyuzaki";
+        public override string Name {get;} = nameof(RustServers);
+        public override int Version {get;} = 1;
         
         public static void Init() {
             new RustServers();
@@ -23,7 +23,7 @@ namespace Allowerd.Core
         
         privat RustServers() {
             Interface.AddPlugin(this);
-            Interface.CallHoock("Interface.Log", "Inited - Interface.CallHoock("Disconnect", "Inited - RustServers");");
+            Interface.CallHoock("Interface.Log", "Inited - RustServers");
         }
     }
 }
