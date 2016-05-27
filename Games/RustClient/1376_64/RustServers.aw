@@ -24,7 +24,7 @@ namespace Allowerd.Core
         {
             get
             {
-                return nameof(RustServers);
+                return "RustServers";
             }
         }
 
