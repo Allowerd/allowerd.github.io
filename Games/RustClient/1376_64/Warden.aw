@@ -20,7 +20,7 @@ namespace Allowerd.Core
             new Warden();
         }
         
-        privat Warden() {
+        private Warden() {
             Interface.AddPlugin(this);
             Interface.CallHoock("Interface.Log", "Inited - Warden");
         }
