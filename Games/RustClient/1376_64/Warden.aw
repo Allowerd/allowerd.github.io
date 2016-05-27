@@ -12,9 +12,29 @@ namespace Allowerd.Core
 {
     public sealed class Warden : Plugin
     {
-        public override string Author => "TheRyuzaki";
-        public override string Name => nameof(Warden);
-        public override int Version => 1;
+        public override string Author
+        {
+            get
+            {
+                return "TheRyuzaki";
+            }
+        }
+
+        public override string Name
+        {
+            get
+            {
+                return "RustServers";
+            }
+        }
+
+        public override int Version
+        {
+            get
+            {
+                return 1;
+            }
+        }
         
         public Warden() {
             Interface.AddPlugin(this);
