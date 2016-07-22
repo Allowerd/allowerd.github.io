@@ -3,3 +3,4 @@
 /Mono.Cecil.dll
 /UnityEngine.dll
 /RustClient_Data/Managed/Allowerd.dll
+/RustClient_Data/Managed/Assembly-CSharp.Original.dll
