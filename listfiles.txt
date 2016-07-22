@@ -1,2 +1,5 @@
-/Update.dat
-/Update1.dat
+/Allowerd.Core.dll
+/AllowerdAntiCheat.exe
+/Mono.Cecil.dll
+/UnityEngine.dll
+/RustClient_Data/Managed/Allowerd.dll
